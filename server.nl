@@ -12,7 +12,8 @@ var headHtml = fs.readFileSync('head.html', 'UTF-8');
 
 route('/', function (cb) {
 	rurrus <- fs.readFile('initial.txt', 'UTF-8');
-	var html = headHtml + '<article>' + format(rurrus) + '</article>' +
+	var title = '<h1>Rurrus in effect</h1>\n';
+	var html = headHtml + '<article>' + title + format(rurrus) + '</article>' +
 		'<aside>Oh boy here we go.</aside>';
 	return html;
 });

@@ -10,3 +10,7 @@ article {
 body {
 	font: 12pt/16pt serif;
 }
+h1 {
+	margin-top: 0;
+	text-transform: uppercase;
+}
