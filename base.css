@@ -1,0 +1,12 @@
+article, aside {
+	display: block;
+	float: left;
+	padding: 1em 3em;
+	text-indent: -2em;
+}
+article {
+	width: 20em;
+}
+body {
+	font: 12pt/16pt serif;
+}
